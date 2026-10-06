@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "leituras": {
+      ".read": "auth != null",
+      ".write": false,
+      "atual": { ".read": "auth != null", ".write": false },
+      "historico": { ".read": "auth != null", ".write": false }
+    },
+    "contatos": {
+      ".read": "auth != null",
+      ".write": true
+    }
+  }
+}
